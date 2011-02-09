@@ -1,0 +1,97 @@
+a:link {
+COLOR: #CFB53B;
+TEXT-DECORATION: underline;
+}
+a:visited {
+COLOR: #CFB53B;
+TEXT-DECORATION: underline;
+}
+a:hover {
+COLOR: #FFFFFF;
+TEXT-DECORATION: underline;
+BACKGROUND: #CFB53B;
+}
+a:active {
+COLOR: #FFFFFF;
+TEXT-DECORATION: none;
+BACKGROUND: #CFB53B;
+} 
+
+body {
+	background-color:#E2DDB5;
+	margin:0;
+	padding:0 100px 0 0;
+}
+
+hr {
+border: 0;
+color: #CFB53B;
+background-color: #CFB53B;
+height: 3px;
+}
+
+h3 {
+text-align: center;
+}
+
+td {
+border: 0;
+color: #CFB53B;
+text-align: left;
+}
+
+td#main{
+border: 0;
+color: #CFB53B;
+text-align: center;
+}
+
+td#status{
+border: 0;
+color: #FFFFFF;
+text-align: left;
+padding-left: 10px;
+}
+
+td#comment {
+border: 1;
+color: #CFB53B;
+text-align: left;
+padding-left: 50px;
+}
+
+table {
+background-color: #2F2F4F;
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+}
+
+textarea {
+margin-left: auto;
+margin-right: auto;
+}
+
+div#sidebar {
+background-color: #2F2F4F;
+position:absolute;
+top:0;
+right:0;
+width:100px;
+height:100%;
+}
+
+@media screen{
+body>div#sidebar{
+	position:fixed;
+}
+}
+
+* html body{
+overflow:hidden;
+}
+
+* html div#content{
+height:100%;
+overflow:auto;
+}

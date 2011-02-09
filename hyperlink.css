@@ -1,0 +1,25 @@
+a:link {
+COLOR: #CFB53B;
+TEXT-DECORATION: underline;
+}
+a:visited {
+COLOR: #CFB53B;
+TEXT-DECORATION: underline;
+}
+a:hover {
+COLOR: #FFFFFF;
+TEXT-DECORATION: underline;
+BACKGROUND: #CFB53B;
+}
+a:active {
+COLOR: #FFFFFF;
+TEXT-DECORATION: none;
+BACKGROUND: #CFB53B;
+} 
+
+hr {
+border: 0;
+color: #CFB53B;
+background-color: #CFB53B;
+height: 3px;
+}
